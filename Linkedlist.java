@@ -122,8 +122,10 @@ public class Linkedlist <E> {
         list.add(1);
         list.add(8);
 
+        //printing our list
         list.printList();
 
+        //removing last item in our list
         list.remove();
 
         list.printList();

@@ -1,2 +1,2 @@
 # DataStructures
-A few of the data structures I've implemented myself.
+A few of the data structures and their implementations.

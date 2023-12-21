@@ -53,6 +53,10 @@ public class ArrayStack <E>{
 
     // method to retrieve top data
     public E peek(){
+        if(isEmpty()){
+            throw new IndexOutOfBoundsException("Stack is empty.");
+        }
+        
         return (E)data[size - 1];
     }
 
